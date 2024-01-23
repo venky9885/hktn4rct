@@ -60,13 +60,13 @@ const AdminUpload = () => {
               marginBottom: "10px",
             }}>
             <Col md={2} style={{ marginRight: "10px" }}>
-              Another
+              Related Doc
             </Col>
             <GenericProgressBar percentage={"60%"} color={"#004cbd"} />
           </div>
         </Col>
         <Col>
-          <CircularProgressBar percentage={60} width={100} />
+          <CircularProgressBar percentage={80} width={100} />
           <p style={{ textAlign: "center" }}>Matched %</p>
         </Col>
       </Row>

@@ -80,7 +80,7 @@ const UploadComponent = () => {
               </p>
             </Col>
             <Col>
-              <CircularProgressBar percentage={50} width={80} />
+              <CircularProgressBar percentage={80} width={80} />
               <p style={{ margin: "5px" }}>Matched %</p>
             </Col>
           </Row>
